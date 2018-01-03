@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.header-container {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header-link {
+  font-size: 1.75em;
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.header-list {
+  padding: 1.1em 1em !important;
+  font-size: 90%;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.list {
+  align-content: center;
+  color: white;
+}
+.list:hover {
+  color: yellow;
+}
