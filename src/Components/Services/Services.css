@@ -1,25 +1,32 @@
+.services-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
 .services-h1 {
-  font-size: 40px;
+    font-size: 40px;
 }
 .services-icons {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
 }
 .icon {
-  background: #fed136;
-  text-shadow: none;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
+    background: #fed136;
+    text-shadow: none;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 .icon-h4 {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 85px;
-  font-size: 25px;
-  white-space: nowrap;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 85px;
+    font-size: 25px;
+    white-space: nowrap;
 }
-p {
-  color: gray;
-  font-size: 15px;
+.services-p {
+    width: 300px;
+    color: gray;
+    font-size: 15px;
 }
