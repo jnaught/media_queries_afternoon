@@ -1,0 +1,25 @@
+.port-container {
+    background: rgb(238, 238, 238);
+    height: 180vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-grid1 {
+    display: flex;
+    justify-content: space-around;
+}
+.box-grid2 {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.port-box {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 280px;
+    background: gray;
+}

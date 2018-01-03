@@ -5,12 +5,13 @@ export default class Services extends Component {
     render() {
         return (
             <div className="services-container">
+                <a name="services" />
                 <div className="services-">
                     <div>
-                        <h1 className="services-h1">
-                            <a name="services" />SERVICES{" "}
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <h1 className="services-h1">SERVICES</h1>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
                     </div>
                     <div className="services-icons">
                         <div className="icon">

@@ -30,6 +30,7 @@ a:active {
     color: #fed136;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
+
 .header-list {
     text-decoration: none;
     padding: 1.1em 1em !important;
@@ -53,6 +54,6 @@ a:active {
     .header-container {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #212529;
+        background-color: #21252960;
     }
 }
